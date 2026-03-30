@@ -1,0 +1,20 @@
+Annotation Agreement Report: Human vs CatLLM
+
+Total valid samples: 799
+Raw Agreement: 0.6809 (Substantial)
+Cohen's Kappa: 0.5017 (Moderate)
+Krippendorff's Alpha: 0.4933 (Moderate)
+Interpretation guide:
+  < 0.00        → Poor
+  0.00 – 0.20   → Slight
+  0.21 – 0.40   → Fair
+  0.41 – 0.60   → Moderate
+  0.61 – 0.80   → Substantial
+  0.81 – 1.00   → Almost Perfect
+
+  n                            : 799
+  raw_agreement                : 0.6809
+  cohen_kappa                  : 0.5017
+  kappa_interpretation         : Moderate
+  krippendorff_alpha           : 0.4933
+  alpha_interpretation         : Moderate

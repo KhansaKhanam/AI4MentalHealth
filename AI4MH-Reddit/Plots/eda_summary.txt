@@ -1,0 +1,41 @@
+=================================================================
+EDA SUMMARY — AI Mental Health Reddit Study
+Functional Factor
+=================================================================
+
+Training set :    801 posts
+Test set     : 19,240 posts
+Date range   : April 2025 – January 2026 (278 days)
+
+── Quality Flags ────────────────────────────────────────
+  is_removed          train=1   test=2
+  is_image            train=5   test=0
+  too_short           train=133   test=2826
+
+── Token Length (Train) ─────────────────────────────────
+count    801.000000
+mean      38.836454
+std       60.516336
+min        0.000000
+25%        7.000000
+50%       19.000000
+75%       45.000000
+max      584.000000
+
+── Functional Label Distribution (Train) ────────────────
+  not_mentioned     :  497  (62.0%)
+  positive          :  192  (24.0%)
+  neutral           :   56  (7.0%)
+  negative          :   54  (6.7%)
+
+  Imbalance ratio (excl. not_mentioned): 3.6x
+  ⚠️  Notable imbalance — use class weights in model
+
+── Test Set Engagement ──────────────────────────────────
+  Posts    : 808
+  Comments : 18,432
+  High engagement (score≥50) : 90
+  Median score (posts)    : 8
+  Median score (comments) : 1
+
+=================================================================
